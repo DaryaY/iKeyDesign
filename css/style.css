@@ -10,11 +10,47 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+#mwork {
+  margin-top: 110px;
+}
+#mwork p {
+  color: #252525;
+  line-height: 1.75em;
+}
+#mwork h1 {
+  color: #252525;
+  line-height: 1.3em;
+}
+
+h1, li {
+  font-family: 'Roboto', sans-serif;
+}
+h3, p {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.left a:visited {
+color: #1d446b;
+}
+.left a:link {
+color: #1d446b;
+text-decoration: none;
+}
+.left a:hover {
+color: #e6e6e6;
+text-decoration: underline;
+}
+.left a:active {
+color: #252525;
+text-decoration: line-through;
+}
 
 
 @media (min-width: 800px) {
 .wrap2, .wrap3 {
     display: none;
+}
+nav {
+  position: relative;
 }
 #logo img {
   width: 60px;
@@ -70,6 +106,56 @@ nav li a:active {
   margin: 0 auto;
   width: 90%;
   margin-top: 70px;
+}
+.decor {
+  position: fixed;
+  width: 150px;
+  height: 100%;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  background-color: rgba(198, 122, 25, 0.5);
+  overflow: hidden;
+}
+.left{
+  float: left;
+  max-width: 49%;
+}
+.lright {
+  max-width: 900px;
+  margin-left: 60px;
+}
+.lright2 {
+  max-width: 600px;
+  margin-left: 60px;
+}
+.text-box1, .text-box2 {
+  background-color: #d29a0d;
+  position: relative;
+  margin-bottom: 100px;
+}
+.text-box1 {
+  text-align: left;
+}
+h1 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 1.5em;
+}
+p {
+  font-size: 1.25em;
+}
+h5 {
+  font-family: sans-serif;
+}
+.txt-mar {
+  padding: 50px 30px 50px 80px;
+}
+.txt-mar2 {
+  padding: 50px 80px 50px 30px;
+}
+.cat-loc {
+  display: none;
 }
 }
 
@@ -193,6 +279,50 @@ nav li a:active {
     margin: 0 auto;
     margin-top: 40px;
   }
+  .text-box1 {
+    background-color: #d29a0d;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+  .txt-mar {
+    max-width: 350px;
+    margin: 40px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  .cat-loc {
+    max-width: 400px;
+    background-color: rgba(198, 122, 25, 0.5);
+    font-size: 1.7em;
+    position: relative;
+    top: 0px;
+  }
+  .cat-loc h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #e6e6e6;
+  }
+  #mwork {
+    margin-top: 20px;
+  }
+  .sel-w li a:link {
+    color: #333333;
+  }
+  .sel-w li a:visited {
+    color: #333333;
+  }
+  #mwork p {
+    font-size: 1.2em;
+  }
+  .mob-box {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .mob-mar {
+    text-align: center;
+  }
   @media (min-width: 720px) {
     .wrap2 {
       display: none;
@@ -222,6 +352,12 @@ nav li a:active {
     }
     .wrap3 li a:active {
       color: #252525;
+    }
+    .sel-w li a:link {
+      color: #333333;
+    }
+    .sel-w li a:visited {
+      color: #333333;
     }
     #list1, #list3, #gr5, #gr6, #gr7, #gr8 {
       float: left;
