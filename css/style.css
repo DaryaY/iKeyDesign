@@ -157,6 +157,14 @@ h5 {
 .cat-loc {
   display: none;
 }
+.left{
+  float: left;
+  max-width: 39%;
+}
+.lright3 {
+  max-width: 400px;
+  margin-left: 60px;
+}
 }
 
 
