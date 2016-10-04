@@ -28,6 +28,9 @@ h1, li {
 h3, p {
   font-family: 'Roboto Condensed', sans-serif;
 }
+.left a {
+  color: #1d446b;
+}
 .left a:visited {
 color: #1d446b;
 }
@@ -46,6 +49,9 @@ text-decoration: line-through;
 
 
 @media (min-width: 800px) {
+  .disp {
+    display: none;
+  }
 .wrap2, .wrap3 {
     display: none;
 }
@@ -120,16 +126,18 @@ nav li a:active {
   float: left;
   max-width: 49%;
 }
-.lright {
-  max-width: 900px;
-  margin-left: 60px;
+.right {
+  float: right;
+  max-width: 49%;
 }
-.lright2 {
-  max-width: 600px;
+.lright, .lright2 {
+  max-width: 550px;
   margin-left: 60px;
 }
 .text-box1, .text-box2 {
   background-color: #d29a0d;
+}
+.img-box,.text-box1, .text-box2 {
   position: relative;
   margin-bottom: 100px;
 }
@@ -159,17 +167,90 @@ h5 {
 }
 .left{
   float: left;
-  max-width: 39%;
+  max-width: 44%;
 }
 .lright3 {
   max-width: 400px;
   margin-left: 60px;
+}
+#blanket {
+   background-color:#111;
+   opacity: 0.65;
+   *background:none;
+   position:absolute;
+   z-index: 9001;
+   top:80px;
+   left:0px;
+   width:100%;
+}
+
+#popUpDiv {
+	position:absolute;
+	z-index: 9002;
+}
+#popUpDiv2 {
+  position:absolute;
+	z-index: 9002;
+}
+.readmore {
+  position: relative;
+  background: #d29a0d;
+  max-width: 800px;
+  top: -370px;
+  left: -380px;
+  box-shadow: 0px 0px 40px #000000;
+}
+.read-wrap {
+  max-width: 700px;
+  padding: 70px 50px 70px 50px;
+  margin: 0 auto;
+}
+.read-wrap h1, .read-wrap h3{
+  text-align: center;
+}
+.readmore a {
+  position: relative;
+  top:30px;
+  left:20px;
+  color: #e6e6e6;
+  text-decoration: none;
+  font-size: 3em;
+  border: solid #e6e6e6;
+  border-width: 2px;
+  padding: 10px 10px 0px 10px;
+}
+.readmore a:hover{
+  color: #252525;
+  border: solid #252525;
+}
+@media (max-width: 1200px) {
+  .left{
+    max-width: 60%;
+  }
+  .readmore {
+    top: -300px;
+    left: -30%;
+  }
+  .disp {
+    display: block;
+  }
+  .disp2 {
+    display: none;
+  }
 }
 }
 
 
 
 @media (max-width: 799px) {
+  .disp2 {
+    display: none;
+  }
+  .img1 img {
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+  }
   .wrap3 {
     display: none;
   }
@@ -238,6 +319,7 @@ h5 {
   .wrap2 {
     font-size: 1.4em;
     margin: 0px;
+    margin-left: -20px;
     padding: 0px;
     width: 100%;
     margin-bottom: 60px;
@@ -287,11 +369,13 @@ h5 {
     margin: 0 auto;
     margin-top: 40px;
   }
-  .text-box1 {
-    background-color: #d29a0d;
+  .text-box1, .disp {
     max-width: 500px;
     margin: 0 auto;
     margin-bottom: 70px;
+  }
+  .text-box1 {
+    background-color: #d29a0d;
   }
   .txt-mar {
     max-width: 350px;
