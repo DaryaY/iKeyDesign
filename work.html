@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <meta charset="utf-8">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>iKeyDesign</title>
       <!-- Link to CSS files -->
       <link rel="stylesheet" type="text/css" href="css/normalize.css">
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Roboto:400,700" rel="stylesheet">
+      <script type="text/javascript" src="css-pop.js"></script>
     </head>
+
     <body>
       <div class="decor"></div>
 
@@ -39,7 +41,7 @@
           <h1>TITLE</h1>
           <h3>Sub-Title</h3>
           <p>This is just a text filler, as an example. The text content in here is an experimental filler, and the actual information will be filled out later.</p>
-          <h5><a href="x">READ MORE</a></h5>
+          <h5><a onclick="popup('popUpDiv')">READ MORE</a></h5>
           </div>
         </div>
         <div class="text-box1 lright2">
@@ -47,11 +49,39 @@
           <h1>ROBOTICS</h1>
           <h3>From Wikipedia</h3>
           <p>The concept of creating machines that can operate autonomously dates back to classical times, but research into the functionality and potential uses of robots did not grow substantially until the 20th century...</p>
-          <h5><a href="x">READ MORE</a></h5>
+          <h5><a onclick="popup('popUpDiv2')">READ MORE</a></h5>
           </div>
       </div>
-        </div>
+      </div>
     </main>
+
+    <div id="blanket" style="display:none;"></div>
+
+    <div id="popUpDiv" style="display:none;">
+      <div class="readmore">
+        <a href="#" onclick="popup('popUpDiv')" >X</a>
+        <div class="read-wrap">
+        <h1>TITLE</h1>
+        <h3>Sub-Title</h3>
+        <p>This is just a text filler, as an example. The text content in here is an experimental filler, and the actual information will be filled out later. For now, just read these:</p>
+        <p>Computer software engineers apply the principles and techniques of computer science, engineering, and mathematical analysis to the design, development, testing, and evaluation of the software and the systems that enable computers to perform their many applications.</p>
+        <p>Software engineers are involved in the design and development of many types of software, including software for operating systems and network distribution, and software for compilers (which convert programs for execution on a computer). In programming, or coding, software engineers instruct a computer, line by line, how to perform a desired function. Software engineers must possess strong programming skills, but are often more concerned with developing algorithms and analyzing and solving programming problems than with actually writing code.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="popUpDiv2" style="display:none;">
+      <div class="readmore">
+        <a href="#" onclick="popup('popUpDiv2')" >X</a>
+        <div class="read-wrap">
+        <h1>TITLE</h1>
+        <h3>Sub-Title</h3>
+        <p>This is just a text filler, as an example. The text content in here is an experimental filler, and the actual information will be filled out later. For now, just read these:</p>
+        <p>Computer software engineers apply the principles and techniques of computer science, engineering, and mathematical analysis to the design, development, testing, and evaluation of the software and the systems that enable computers to perform their many applications.</p>
+        <p>Software engineers are involved in the design and development of many types of software, including software for operating systems and network distribution, and software for compilers (which convert programs for execution on a computer). In programming, or coding, software engineers instruct a computer, line by line, how to perform a desired function. Software engineers must possess strong programming skills, but are often more concerned with developing algorithms and analyzing and solving programming problems than with actually writing code.</p>
+        </div>
+      </div>
+    </div>
 
     <div class="filler"></div>
 
