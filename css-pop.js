@@ -43,6 +43,15 @@ function window_pos(popUpDivVar) {
 	window_width=window_width/2-200;//200 is half popup's width
 	popUpDiv.style.left = window_width + 'px';
 }
+var sourceSwap = function () {
+    var $this = $(this);
+    var newSource = $this.data('alt-src');
+    $this.data('alt-src', $this.attr('src'));
+    $this.attr('src', newSource);
+}
+$(function () {
+    $('img.img-switch').hover(sourceSwap, sourceSwap);
+});
 function popup(windowname) {
 	blanket_size(windowname);
 	window_pos(windowname);
