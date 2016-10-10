@@ -10,8 +10,11 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+.contact1 {
+  margin-top: -70px;
+}
 #mwork {
-  margin-top: 110px;
+  margin-top: 210px;
 }
 #mwork p {
   color: #252525;
@@ -49,7 +52,7 @@ text-decoration: line-through;
 
 
 @media (min-width: 800px) {
-  .disp {
+.disp, #nav-mob, .mobile {
     display: none;
   }
 .wrap2, .wrap3 {
@@ -101,6 +104,10 @@ nav li a:active {
   background-color: #d29a0d;
   width: 100%;
   height: 80px;
+  position: fixed;
+  top: 0px;
+  box-shadow: 0px 0px 20px #000000;
+  z-index: 9003;
 }
 #home-img img {
   display:block;
@@ -111,10 +118,22 @@ nav li a:active {
 #home-img {
   margin: 0 auto;
   width: 90%;
-  margin-top: 70px;
+  margin-top: 170px;
 }
 .decor {
   position: fixed;
+  top: 0px;
+  width: 150px;
+  height: 100%;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  background-color: rgba(198, 122, 25, 0.5);
+  overflow: hidden;
+}
+.decor2 {
+  position: fixed;
+  top: 0px;
+  right: 0;
   width: 150px;
   height: 100%;
   margin-left: 0 auto;
@@ -140,6 +159,9 @@ nav li a:active {
 .img-box,.text-box1, .text-box2 {
   position: relative;
   margin-bottom: 100px;
+}
+.img-box img {
+  max-width: 1200px;
 }
 .text-box1 {
   text-align: left;
@@ -177,13 +199,12 @@ h5 {
    background-color:#111;
    opacity: 0.65;
    *background:none;
-   position:absolute;
+   position:fixed;
    z-index: 9001;
    top:80px;
    left:0px;
    width:100%;
 }
-
 #popUpDiv {
 	position:absolute;
 	z-index: 9002;
@@ -196,7 +217,7 @@ h5 {
   position: relative;
   background: #d29a0d;
   max-width: 800px;
-  top: -370px;
+  top: -270px;
   left: -380px;
   box-shadow: 0px 0px 40px #000000;
 }
@@ -223,6 +244,9 @@ h5 {
   color: #252525;
   border: solid #252525;
 }
+.clear {
+  clear: both;
+}
 @media (max-width: 1200px) {
   .left{
     max-width: 60%;
@@ -243,12 +267,19 @@ h5 {
 
 
 @media (max-width: 799px) {
-  .disp2 {
+  .disp2, .decor2, .decor, #nav-web, .website {
     display: none;
   }
-  .img1 img {
+  .img-box {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .img-mob {
+    margin-bottom: 80px;
+  }
+  .img-box img {
     display: block;
-    max-width: 500px;
+    max-width: 100%;
     margin: 0 auto;
   }
   .wrap3 {
@@ -379,9 +410,8 @@ h5 {
   }
   .txt-mar {
     max-width: 350px;
-    margin: 40px;
-    padding-top: 40px;
-    padding-bottom: 10px;
+    margin: 0 auto;
+    padding: 40px 40px 10px 40px;
   }
   .cat-loc {
     max-width: 400px;
@@ -414,6 +444,11 @@ h5 {
   }
   .mob-mar {
     text-align: center;
+  }
+  .contact1 {
+    margin-top: 40px;
+  }
+  #nav2 {
   }
   @media (min-width: 720px) {
     .wrap2 {
@@ -490,6 +525,9 @@ h5 {
       clear: left;
       display: block;
       margin-bottom: 100px;
+    }
+    .img-mob-bot {
+      margin-bottom: 80px;
     }
   }
 }
