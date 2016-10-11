@@ -373,32 +373,15 @@ h5 {
   .wrap2 ul {
     padding-top: 20px;
   }
+  .wrap2 a {
+    text-decoration: none;
+  }
   #mob-t {
     position: relative;
     top: 10px;
   }
-  .wrap2 li a:visited {
-    color: #e6e6e6;
-  }
-  .wrap2 li a:link {
-    color: #e6e6e6;
-    text-decoration: none;
-  }
-  .wrap2 li a:hover {
-    color: #252525;
-  }
-  .wrap2 li a:active {
-    color: #252525;
-  }
   .mob-nav-align {
     margin-top: 30px;
-  }
-  .mob-color {
-    background-color: rgba(198, 122, 25, 0.5);
-    width: 220px;
-    height: 80px;
-    margin: 0 auto;
-    margin-top: 40px;
   }
   .text-box1, .disp {
     max-width: 500px;
@@ -429,12 +412,6 @@ h5 {
   #mwork {
     margin-top: 20px;
   }
-  .sel-w li a:link {
-    color: #333333;
-  }
-  .sel-w li a:visited {
-    color: #333333;
-  }
   #mwork p {
     font-size: 1.2em;
   }
@@ -448,70 +425,159 @@ h5 {
   .contact1 {
     margin-top: 40px;
   }
-  #nav2 {
+
+  .wrap2 {
+    font-size: 1.4em;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 30px;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .wrap2 ul li {
+    list-style: none;
+  }
+  #gr1, #gr2, #gr3, #gr4 {
+    float: left;
+    position: relative;
+    left: 20px;
+    top: 20px;
+  }
+  .filler {
+    clear: left;
+  }
+  .wrap2 ul {
+    padding-top: 20px;
+  }
+  #mob-t {
+    position: relative;
+    top: 10px;
+  }
+  .mob-nav-align {
+    margin-top: 30px;
+  }
+  .mob-color {
+    background-color: rgba(198, 122, 25, 0.5);
+    width: 220px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  #im-about {
+    height: 40px;
+    width: 40px;
+    background: url("about.png") no-repeat;
+    background-size: 40px;
+  }
+  #im-about-b {
+    height: 40px;
+    width: 40px;
+    background: url("aboutus-b.png") no-repeat;
+    background-size: 40px;
+  }
+  #im-work {
+    height: 40px;
+    width: 40px;
+    background: url("gearsicon.png") no-repeat;
+    background-size: 40px;
+  }
+  #im-work-b {
+    height: 40px;
+    width: 40px;
+    background: url("gearsicon-b.png") no-repeat;
+    background-size: 40px;
+  }
+  #im-contact {
+    height: 40px;
+    width: 40px;
+    background: url("contacticon.png") no-repeat;
+    background-size: 40px;
+  }
+  #im-contact-b {
+    height: 40px;
+    width: 40px;
+    background: url("contacticon-b.png") no-repeat;
+    background-size: 40px;
+  }
+  #im-home {
+    height: 40px;
+    width: 40px;
+    background: url("home-w.png") no-repeat;
+    background-size: 40px;
+  }
+  #im-home-b {
+    height: 40px;
+    width: 40px;
+    background: url("homeicon.png") no-repeat;
+    background-size: 40px;
+  }
+  .divider {
+    height: 40px;
+    width: 35px;
+    background: url("divider.png") no-repeat;
+    background-size: 30px;
+  }
+  .divider-b {
+    height: 40px;
+    width: 35px;
+    background: url("divider-b.png") no-repeat;
+    background-size: 30px;
+  }
+  .txt {
+    position: relative;
+    top: 10px;
+    color: #e6e6e6;
+  }
+  .txt-b {
+    position: relative;
+    top: 10px;
+    color: #333333;
+  }
+  a:hover #im-about, a:hover #im-about-b {
+    height: 40px;
+    width: 40px;
+    background: url("about-h.png") no-repeat;
+    background-size: 40px;
+  }
+  a:hover #im-work, a:hover #im-work-b {
+    height: 40px;
+    width: 40px;
+    background: url("gearsicon-h.png") no-repeat;
+    background-size: 40px;
+  }
+  a:hover #im-contact, a:hover #im-contact-b {
+    height: 40px;
+    width: 40px;
+    background: url("contacticon-h.png") no-repeat;
+    background-size: 40px;
+  }
+  a:hover #im-home, a:hover #im-home-b {
+    height: 40px;
+    width: 40px;
+    background: url("homeicon-h.png") no-repeat;
+    background-size: 40px;
+  }
+  a:hover .divider, a:hover .divider-b {
+    height: 40px;
+    width: 35px;
+    background: url("divider-h.png") no-repeat;
+    background-size: 30px;
+  }
+  a:hover .txt, a:hover .txt-b {
+    position: relative;
+    top: 10px;
+    color: #255681;
+  }
+  a:hover .mob-color {
+    background-color: rgba(230, 230, 230, 0.7);
+    width: 220px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 40px;
   }
   @media (min-width: 720px) {
     .wrap2 {
       display: none;
-    }
-    .wrap3 {
-      display: block;
-      font-size: 1.8em;
-      margin: 0px;
-      padding: 0px;
-      width: 100%;
-    }
-    .wrap3 ul img {
-      max-height: 60px;
-    }
-    .wrap3 ul li {
-      list-style: none;
-    }
-    .wrap3 li a:visited {
-      color: #e6e6e6;
-    }
-    .wrap3 li a:link {
-      color: #e6e6e6;
-      text-decoration: none;
-    }
-    .wrap3 li a:hover {
-      color: #252525;
-    }
-    .wrap3 li a:active {
-      color: #252525;
-    }
-    .sel-w li a:link {
-      color: #333333;
-    }
-    .sel-w li a:visited {
-      color: #333333;
-    }
-    #list1, #list3, #gr5, #gr6, #gr7, #gr8 {
-      float: left;
-    }
-    #gr5, #gr6, #gr7, #gr8 {
-    position: relative;
-    left: 20px;
-    top: 20px;
-    }
-    #list2, #list4 {
-      float: right;
-    }
-    .wrap3 ul li {
-      display: inline block;
-    }
-    .mob-color2 {
-      background-color: rgba(198, 122, 25, 0.5);
-      width: 300px;
-      height: 100px;
-      margin-top: 40px;
-      margin-right: 35px;
-    }
-    .mob-color {
-      width: 300px;
-      height: 100px;
-      margin-top: 40px;
-      margin-left: -2%;
     }
     #home-img {
       margin-top: 80px;
@@ -529,5 +595,173 @@ h5 {
     .img-mob-bot {
       margin-bottom: 80px;
     }
+  .wrap3 {
+    display: block;
+    font-size: 1.8em;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 0px;
+  }
+  .wrap3 ul li {
+    list-style: none;
+  }
+  #list1, #list3, #gr5, #gr6, #gr7, #gr8 {
+    float: left;
+  }
+  #list2, #list4 {
+    float: right;
+  }
+  .filler {
+    clear: left;
+  }
+  .cs {
+    clear: right;
+  }
+  #gr5, #gr6, #gr7, #gr8 {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  }
+  .wrap3 ul li {
+    display: inline block;
+  }
+  .mob-color2, .mob-color3 {
+    background-color: rgba(198, 122, 25, 0.5);
+    width: 300px;
+    height: 100px;
+    margin-top: 40px;
+    margin-right: 35px;
+  }
+  .mob-color {
+    background-color: rgba(198, 122, 25, 0.5);
+    width: 300px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: -2%;
+  }
+  #mob-t {
+    position: relative;
+    top: 16px;
+  }
+  #im-about {
+    height: 60px;
+    width: 60px;
+    background: url("about.png") no-repeat;
+    background-size: 60px;
+  }
+  #im-about-b {
+    height: 60px;
+    width: 60px;
+    background: url("aboutus-b.png") no-repeat;
+    background-size: 60px;
+  }
+  #im-work {
+    height: 60px;
+    width: 60px;
+    background: url("gearsicon.png") no-repeat;
+    background-size: 60px;
+  }
+  #im-work-b {
+    height: 60px;
+    width: 60px;
+    background: url("gearsicon-b.png") no-repeat;
+    background-size: 60px;
+  }
+  #im-contact {
+    height: 60px;
+    width: 60px;
+    background: url("contacticon.png") no-repeat;
+    background-size: 60px;
+  }
+  #im-contact-b {
+    height: 60px;
+    width: 60px;
+    background: url("contacticon-b.png") no-repeat;
+    background-size: 60px;
+  }
+  #im-home {
+    height: 60px;
+    width: 60px;
+    background: url("home-w.png") no-repeat;
+    background-size: 60px;
+  }
+  #im-home-b {
+    height: 60px;
+    width: 60px;
+    background: url("homeicon.png") no-repeat;
+    background-size: 60px;
+  }
+  .divider {
+    height: 60px;
+    width: 40px;
+    background: url("divider.png") no-repeat;
+    background-size: 40px;
+  }
+  .divider-b {
+    height: 60px;
+    width: 40px;
+    background: url("divider-b.png") no-repeat;
+    background-size: 40px;
+  }
+  .txt {
+    position: relative;
+    top: 15px;
+    color: #e6e6e6;
+  }
+  .txt-b {
+    position: relative;
+    top: 15px;
+    color: #333333;
+  }
+  a:hover #im-about, a:hover #im-about-b {
+    height: 60px;
+    width: 60px;
+    background: url("about-h.png") no-repeat;
+    background-size: 60px;
+  }
+  a:hover #im-work, a:hover #im-work-b {
+    height: 60px;
+    width: 60px;
+    background: url("gearsicon-h.png") no-repeat;
+    background-size: 60px;
+  }
+  a:hover #im-contact, a:hover #im-contact-b {
+    height: 60px;
+    width: 60px;
+    background: url("contacticon-h.png") no-repeat;
+    background-size: 60px;
+  }
+  a:hover #im-home, a:hover #im-home-b {
+    height: 60px;
+    width: 60px;
+    background: url("homeicon-h.png") no-repeat;
+    background-size: 60px;
+  }
+  a:hover .divider, a:hover .divider-b {
+    height: 60px;
+    width: 40px;
+    background: url("divider-h.png") no-repeat;
+    background-size: 40px;
+  }
+  a:hover .txt, a:hover .txt-b {
+    position: relative;
+    top: 15px;
+    color: #255681;
+  }
+  a:hover .mob-color {
+    background-color: rgba(230, 230, 230, 0.7);
+    width: 300px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: -2%;
+  }
+  a:hover .mob-color3, a:hover .mob-color2 {
+    background-color: rgba(230, 230, 230, 0.7);
+    width: 300px;
+    height: 100px;
+    margin-top: 40px;
+    margin-right: 35px;
+  }
   }
 }
