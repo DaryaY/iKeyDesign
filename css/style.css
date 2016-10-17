@@ -214,11 +214,8 @@ h5 {
 	z-index: 9002;
 }
 .readmore {
-  position: relative;
   background: #d29a0d;
   max-width: 800px;
-  top: -270px;
-  left: -380px;
   box-shadow: 0px 0px 40px #000000;
 }
 .read-wrap {
@@ -251,15 +248,14 @@ h5 {
   .left{
     max-width: 60%;
   }
-  .readmore {
-    top: -300px;
-    left: -30%;
-  }
   .disp {
     display: block;
   }
   .disp2 {
     display: none;
+  }
+  .right {
+    margin-right: 20%;
   }
 }
 }
