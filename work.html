@@ -26,19 +26,19 @@
     </div>
     </nav>
 
-    <body>
+    <body onload="fScrollMove('mwork');">
       <div class="decor"></div>
 
     <div class="cat-loc"><h1>OUR WORK</h1></div>
-    <main id="mwork">
+    <main id="mwork" onscroll="fScroll(this);">
       <div class="website">
       <div class="left">
-        <div id="parentList" class="text-box1 lright">
+        <div id="parentList1" class="text-box1 lright">
           <div class="txt-mar">
           <h1>TITLE</h1>
           <h3>Sub-Title</h3>
           <p>This is just a text filler, as an example. The text content in here is an experimental filler, and the actual information will be filled out later.</p>
-          <h5><a onclick="popup('popUpDiv')">READ MORE</a></h5>
+          <h5><a onclick="popup('1')">READ MORE</a></h5>
           </div>
         </div>
         <div id="parentList2" class="text-box1 lright2">
@@ -46,7 +46,7 @@
           <h1>ROBOTICS</h1>
           <h3>From Wikipedia</h3>
           <p>The concept of creating machines that can operate autonomously dates back to classical times, but research into the functionality and potential uses of robots did not grow substantially until the 20th century...</p>
-          <h5><a onclick="popup('popUpDiv2')">READ MORE</a></h5>
+          <h5><a onclick="popup('2')">READ MORE</a></h5>
           </div>
       </div>
       </div>
@@ -77,9 +77,9 @@
 
     <div id="blanket" style="display:none;"></div>
 
-    <div id="popUpDiv" style="display:none;">
+    <div id="popUpDiv1" style="display:none;">
       <div class="readmore">
-        <a href="#" onclick="popup('popUpDiv')" >X</a>
+        <a href="#/" onclick="remove('1'); fScrollMove('mwork');" >X</a>
         <div class="read-wrap">
         <h1>TITLE</h1>
         <h3>Sub-Title</h3>
@@ -92,7 +92,7 @@
 
     <div id="popUpDiv2" style="display:none;">
       <div class="readmore">
-        <a href="#" onclick="popup('popUpDiv2')" >X</a>
+        <a href="#/" onclick="remove('2'); fScrollMove('mwork');" >X</a>
         <div class="read-wrap">
         <h1>ROBOTICS</h1>
         <h3>Sub-Title</h3>
