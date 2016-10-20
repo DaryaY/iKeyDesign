@@ -78,11 +78,7 @@ nav ul {
   padding-top: 10px;
 }
 nav ul li {
-  display: inline-block;
-  margin: 5px;
-  margin-top: 0px;
-  font-size: 1.8em;
-  color: #e6e6e6;
+  display: inline-block; margin: 5px; margin-top: 0px; font-size: 1.8em; color: #e6e6e6;
 }
 nav ul img {
   max-height: 40px;
@@ -184,12 +180,16 @@ h5 {
 .txt-mar2 {
   padding: 50px 80px 50px 30px;
 }
+.txt-mar4{
+  padding: 70px 0px 70px 0px;
+}
 .cat-loc {
   display: none;
 }
 .left{
   float: left;
   max-width: 44%;
+  margin-bottom: 100px;
 }
 .lright3 {
   max-width: 400px;
@@ -205,7 +205,7 @@ h5 {
    left:0px;
    width:100%;
 }
-#popUpDiv {
+#popUpDiv1 {
 	position:absolute;
 	z-index: 9002;
 }
@@ -244,9 +244,38 @@ h5 {
 .clear {
   clear: both;
 }
+.rdtitle {
+  max-width: 400px;
+  background-color: #d29a0d;
+  font-size: 1.7em;
+  position: relative;
+  margin-left: 50px;
+  margin-top: -130px;
+  padding-top: 1px;
+  bottom: 15px;
+  text-align: center;
+}
+.rdstrip {
+  margin-left: 150px;
+  margin-right: 150px;
+  max-width: 800px;
+}
+.rd-txt {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.img-box img {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 @media (max-width: 1200px) {
+  .txt-mar4{
+    padding: 70px 50px 70px 50px;
+  }
   .left{
     max-width: 60%;
+    margin-bottom: 0px;
   }
   .disp {
     display: block;
@@ -256,6 +285,8 @@ h5 {
   }
   .right {
     margin-right: 20%;
+    margin-bottom: 80px;
+    margin-top: -50px;
   }
 }
 }
@@ -263,7 +294,7 @@ h5 {
 
 
 @media (max-width: 799px) {
-  .disp2, .decor2, .decor, #nav-web, .website {
+  .disp2, .decor2, .decor, #nav-web, .website, .readmore {
     display: none;
   }
   .img-box {
@@ -331,6 +362,9 @@ h5 {
     background-color: #d29a0d;
     width: 100%;
     height: 60px;
+    box-shadow: 0px 0px 20px #000000;
+    position: relative;
+    z-index: 9002;
   }
   #home-img img {
     display:block;
@@ -571,9 +605,35 @@ h5 {
     margin: 0 auto;
     margin-top: 40px;
   }
+  .right {
+    margin-bottom: 130px;
+  }
+  .rdtitle {
+    max-width: 400px;
+    background-color: #d29a0d;
+    font-size: 1.7em;
+    padding-top: 1px;
+    bottom: 15px;
+    margin-top: -20px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 70px;
+  }
+  .rdstrip {
+    max-width: 800px;
+  }
+  .rd-txt {
+    max-width: 500px;
+    padding: 60px 50px 60px 50px;
+    margin: 0 auto;
+  }
   @media (min-width: 720px) {
     .wrap2 {
       display: none;
+    }
+    .rdtitle {
+      margin-left: 100px;
     }
     #home-img {
       margin-top: 80px;

@@ -247,6 +247,7 @@ a:hover .mob-color3, a:hover .mob-color2 {
   }
   .wrap {
     background-color: #d29a0d;
+    box-shadow: 0px 0px 20px #000000;
     width: 100%;
     height: 60px;
   }
