@@ -10,6 +10,9 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+.txt, .txt-b {
+  font-family: 'Roboto', sans-serif;
+}
 
 
 @media (min-width: 720px) {
@@ -217,6 +220,10 @@ a:hover .mob-color3, a:hover .mob-color2 {
 .lang img:hover {
   border: 1px solid #e6e6e6;
 }
+.rus-txt {
+  position: relative;
+  bottom: 21px;
+}
 }
 
 
@@ -411,5 +418,9 @@ a:hover .mob-color3, a:hover .mob-color2 {
     height: 80px;
     margin: 0 auto;
     margin-top: 40px;
+  }
+  .rus-txt {
+    position: relative;
+    bottom: 17px;
   }
 }
