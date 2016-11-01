@@ -100,14 +100,14 @@ top: 20px;
 }
 .mob-color2, .mob-color3 {
   background-color: rgba(198, 122, 25, 0.5);
-  width: 360px;
+  width: 300px;
   height: 100px;
   margin-top: 40px;
   margin-right: 35px;
 }
 .mob-color {
   background-color: rgba(198, 122, 25, 0.5);
-  width: 360px;
+  width: 300px;
   height: 100px;
   margin-top: 40px;
   margin-left: -2%;
@@ -188,14 +188,14 @@ a:hover .txt {
 }
 a:hover .mob-color {
   background-color: rgba(230, 230, 230, 0.7);
-  width: 360px;
+  width: 300px;
   height: 100px;
   margin-top: 40px;
   margin-left: -2%;
 }
 a:hover .mob-color3, a:hover .mob-color2 {
   background-color: rgba(230, 230, 230, 0.7);
-  width: 360px;
+  width: 300px;
   height: 100px;
   margin-top: 40px;
   margin-right: 35px;
@@ -220,8 +220,11 @@ a:hover .mob-color3, a:hover .mob-color2 {
 .lang img:hover {
   border: 1px solid #e6e6e6;
 }
+.rus-txt {
+  position: relative;
+  bottom: 21px;
 }
-
+}
 
 
 @media (max-width: 719px) {
@@ -333,7 +336,7 @@ a:hover .mob-color3, a:hover .mob-color2 {
   }
   .mob-color {
     background-color: rgba(198, 122, 25, 0.5);
-    width: 280px;
+    width: 220px;
     height: 80px;
     margin: 0 auto;
     margin-top: 40px;
@@ -410,9 +413,13 @@ a:hover .mob-color3, a:hover .mob-color2 {
   }
   a:hover .mob-color {
     background-color: rgba(230, 230, 230, 0.7);
-    width: 280px;
+    width: 220px;
     height: 80px;
     margin: 0 auto;
     margin-top: 40px;
+  }
+  .rus-txt {
+    position: relative;
+    bottom: 17px;
   }
 }

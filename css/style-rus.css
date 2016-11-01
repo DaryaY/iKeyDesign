@@ -421,6 +421,7 @@ h5 {
   .wrap2 {
     font-size: 1.4em;
     margin: 0px;
+    margin-left: -20px;
     padding: 0px;
     width: 100%;
     margin-bottom: 60px;
@@ -500,7 +501,7 @@ h5 {
     font-size: 1.4em;
     margin: 0px;
     padding: 0px;
-    padding-right: 40px;
+    padding-right: 30px;
     width: 100%;
     margin-bottom: 60px;
   }
@@ -528,7 +529,7 @@ h5 {
   }
   .mob-color {
     background-color: rgba(198, 122, 25, 0.5);
-    width: 280px;
+    width: 220px;
     height: 80px;
     margin: 0 auto;
     margin-top: 40px;
@@ -640,7 +641,7 @@ h5 {
   }
   a:hover .mob-color {
     background-color: rgba(230, 230, 230, 0.7);
-    width: 280px;
+    width: 220px;
     height: 80px;
     margin: 0 auto;
     margin-top: 40px;
@@ -668,6 +669,10 @@ h5 {
     padding: 60px 50px 60px 50px;
     margin: 0 auto;
   }
+  .rus-txt {
+    position: relative;
+    bottom: 17px;
+  }
   @media (min-width: 720px) {
     .wrap2 {
       display: none;
@@ -686,7 +691,7 @@ h5 {
     footer {
       clear: left;
       display: block;
-      margin-bottom: 300px;
+      margin-bottom: 100px;
     }
     .img-mob-bot {
       margin-bottom: 80px;
@@ -724,17 +729,17 @@ h5 {
   }
   .mob-color2, .mob-color3 {
     background-color: rgba(198, 122, 25, 0.5);
-    width: 360px;
+    width: 300px;
     height: 100px;
     margin-top: 40px;
-    margin-right: 90px;
+    margin-right: 35px;
   }
   .mob-color {
     background-color: rgba(198, 122, 25, 0.5);
-    width: 360px;
+    width: 300px;
     height: 100px;
     margin-top: 40px;
-    margin-left: 90px;
+    margin-left: -2%;
   }
   #mob-t {
     position: relative;
@@ -847,17 +852,20 @@ h5 {
   }
   a:hover .mob-color {
     background-color: rgba(230, 230, 230, 0.7);
-    width: 360px;
+    width: 300px;
     height: 100px;
     margin-top: 40px;
-    margin-left: 90px;
+    margin-left: -2%;
   }
   a:hover .mob-color3, a:hover .mob-color2 {
     background-color: rgba(230, 230, 230, 0.7);
-    width: 360px;
+    width: 300px;
     height: 100px;
     margin-top: 40px;
-    margin-right: 90px;
-  }
+    margin-right: 35px;
+  }  .rus-txt {
+      position: relative;
+      bottom: 21px;
+    }
   }
 }
