@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>iKeyDesign</title>
+      <!-- Link to CSS files -->
+      <link rel="stylesheet" type="text/css" href="css/normalize.css">
+      <link rel="stylesheet" type="text/css" href="css/style-rus.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Roboto:400,700" rel="stylesheet">
+      <script type="text/javascript" src="css-pop.js"></script>
+    </head>
+
+    <nav id="nav-mob">
+      <div class="wrap">
+      <div id="logo">
+        <img src="img/Logo.png" alt="description">
+      </div>
+      <ul class="navigation">
+        <li><a href="about-rus.html"><img src="img/about.png" alt="x" onmouseover="this.src='img/about-h.png';" onmouseout="this.src='img/about.png';"></a></li>
+        <li><img src="img/divider.png" alt="x"></li>
+        <li><a href="index-rus.html"><img src="img/home-w.png" alt="x" onmouseover="this.src='img/homeicon-h.png';" onmouseout="this.src='img/home-w.png';"></a></li>
+        <li><img src="img/divider.png" alt="x"></li>
+        <li><a href="navigation-rus.html"><img src="img/navigationicon.png" alt="x" onmouseover="this.src='img/navigationicon-h.png';" onmouseout="this.src='img/navigationicon.png';"></a></li>
+      </ul>
+    </div>
+    <div class="lang">
+      <div class="lang-img">
+        <a href="work-rus.html"><img src="img/russ.jpg" alt="Russian Language"></a>
+        <a href="work.html"><img src="img/us.jpg" alt="English Language"></a>
+      </div>
+    </div>
+    </nav>
+
+    <body onload="fScrollMove('mwork');">
+      <div class="decor"></div>
+
+    <div class="cat-loc"><h1>НАША РАБОТА</h1></div>
+    <main id="mwork" onscroll="fScroll(this);">
+      <div class="website">
+      <div class="left">
+        <div id="parentList1" class="text-box1 lright">
+          <div class="txt-mar">
+            <h1>НАЗВАНИЕ</h1>
+            <h3>Категория</h3>
+            <p>Это просто наполнитель текста. Тестирую сколько можно поместить а также фонты.</p>
+          <h5><a onclick="popup('1')">ЧИТАТЬ ДАЛЬШЕ</a></h5>
+          </div>
+        </div>
+        <div id="parentList2" class="text-box1 lright2">
+          <div class="txt-mar">
+            <h1>РОБОТЕХНИКА</h1>
+            <h3>Из Википедии</h3>
+            <p>Ро́бот (чеш. robot, от robota — «подневольный труд») — автоматическое устройство, созданное по принципу живого организма, предназначенное для осуществления производственных и других операций, которое действует по заранее заложенной программе и получает информацию о внешнем мире от датчиков (аналогов органов чувств живых организмов)...</p>
+          <h5><a onclick="popup('2')">ЧИТАТЬ ДАЛЬШЕ</a></h5>
+          </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="mobile">
+      <div class="left">
+        <div class="text-box1 lright">
+          <div class="txt-mar">
+            <h1>НАЗВАНИЕ</h1>
+            <h3>Категория</h3>
+            <p>Это просто наполнитель текста. Тестирую сколько можно поместить а также фонты.</p>
+          <h5><a href="read1-rus.html">ЧИТАТЬ ДАЛЬШЕ</a></h5>
+          </div>
+        </div>
+        <div class="text-box1 lright2">
+          <div class="txt-mar">
+            <h1>РОБОТЕХНИКА</h1>
+            <h3>Из Википедии</h3>
+            <p>Ро́бот (чеш. robot, от robota — «подневольный труд») — автоматическое устройство, созданное по принципу живого организма, предназначенное для осуществления производственных и других операций, которое действует по заранее заложенной программе и получает информацию о внешнем мире от датчиков (аналогов органов чувств живых организмов)...</p>
+          <h5><a href="read2-rus.html">ЧИТАТЬ ДАЛЬШЕ</a></h5>
+          </div>
+      </div>
+      </div>
+    </div>
+
+    </main>
+
+    <div id="blanket" style="display:none;"></div>
+
+    <div id="popUpDiv1" style="display:none;">
+      <div class="readmore">
+        <a href="#/" onclick="remove('1'); fScrollMove('mwork');" >X</a>
+        <div class="read-wrap">
+          <h1>НАЗВАНИЕ</h1>
+          <h3>Категория</h3>
+          <p>Это просто наполнитель текста. Тестирую сколько можно поместить а также фонты.</p>
+          <p>Ро́бот (чеш. robot, от robota — «подневольный труд») — автоматическое устройство, созданное по принципу живого организма, предназначенное для осуществления производственных и других операций, которое действует по заранее заложенной программе и получает информацию о внешнем мире от датчиков (аналогов органов чувств живых организмов)...</p>
+          <p>Внешний вид и конструкция современных роботов могут быть весьма разнообразными. В промышленном производстве широко применяются различные роботы, внешний вид которых (по причинам технического и экономического характера) далёк от «человеческого».</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="popUpDiv2" style="display:none;">
+      <div class="readmore">
+        <a href="#/" onclick="remove('2'); fScrollMove('mwork');" >X</a>
+        <div class="read-wrap">
+          <h1>РОБОТЕХНИКА</h1>
+          <h3>От Википедии</h3>
+          <p>Это просто наполнитель текста. Тестирую сколько можно поместить а также фонты.</p>
+          <p>Ро́бот (чеш. robot, от robota — «подневольный труд») — автоматическое устройство, созданное по принципу живого организма, предназначенное для осуществления производственных и других операций, которое действует по заранее заложенной программе и получает информацию о внешнем мире от датчиков (аналогов органов чувств живых организмов), робот самостоятельно осуществляет производственные и иные операции, обычно выполняемые человеком[1][2]. При этом робот может как иметь связь с оператором (получать от него команды), так и действовать автономно.</p>
+          <p>Внешний вид и конструкция современных роботов могут быть весьма разнообразными. В промышленном производстве широко применяются различные роботы, внешний вид которых (по причинам технического и экономического характера) далёк от «человеческого».</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filler"></div>
+
+    <div class="wrap2">
+    <ul>
+      <a href="about-rus.html">
+      <div class="mob-color ">
+      <li id="gr1"><div id="im-about"></div></li>
+      <li id="gr1"><div class="divider"></div></li>
+      <li id="gr1"><div class="txt">о нас</div></li>
+      </div>
+      </a>
+
+      <div class="filler canc"></div>
+
+      <a href="work-rus.html">
+      <div class="mob-nav-align mob-color">
+      <li id="gr2"><div id="im-work-b"></div></li>
+      <li id="gr2"><div class="divider-b"></div></li>
+      <li id="gr2"><div class="txt-b">наша работа</div></li>
+      </div>
+      </a>
+
+      <div class="filler"></div>
+
+      <a href="contact-rus.html">
+      <div class="mob-nav-align mob-color">
+      <li id="gr3"><div id="im-contact"></div></li>
+      <li id="gr3"><div class="divider"></div></li>
+      <li id="gr3"><div class="txt">свяжитесь с нами</div></li>
+      </div>
+      </a>
+
+      <div class="filler canc"></div>
+
+      <a href="index-rus.html">
+      <div class="mob-nav-align mob-color">
+      <li id="gr4"><div id="im-home"></div></li>
+      <li id="gr4"><div class="divider"></div></li>
+      <li id="gr4"><div class="txt">домой</div></li>
+      </div>
+      </a>
+    </ul>
+  </div>
+
+  <div class="wrap3">
+    <a href="about-rus.html">
+    <ul id="list1">
+      <div class="mob-color">
+      <li id="gr5"><div id="im-about"></div></li>
+      <li id="gr5"><div class="divider"></div></li>
+      <li id="gr5"><div class="txt">о нас</div></li>
+    </div>
+    </ul>
+  </a>
+
+    <div class="cs"></div>
+
+  <a href="work-rus.html">
+    <ul id="list2">
+      <div class="mob-color3">
+      <li id="gr6"><div id="im-work-b"></div></li>
+      <li id="gr6"><div class="divider-b"></div></li>
+      <li id="gr6"><div class="txt-b">наша работа</div></li>
+    </div>
+    </ul>
+  </a>
+
+    <div class="filler"></div>
+
+  <a href="contact-rus.html">
+    <ul id="list3">
+      <div class="mob-color">
+      <li id="gr7"><div id="im-contact"></div></li>
+      <li id="gr7"><div class="divider"></div></li>
+      <li id="gr7"><div class="txt">свяжитесь с нами</div></li>
+    </div>
+    </ul>
+  </a>
+
+  <a href="index-rus.html">
+    <ul id="list4">
+      <div class="mob-color2">
+      <li id="gr8"><div id="im-home"></div></li>
+      <li id="gr8"><div class="divider"></div></li>
+      <li id="gr8"><div class="txt">домой</div></li>
+    </div>
+    <div class="filler"></div>
+    </ul>
+  </a>
+  </div>
+
+<footer>
+</footer>
+
+<nav id="nav-web">
+  <div class="wrap">
+  <div id="logo">
+    <img src="img/Logo.png" alt="description">
+  </div>
+  <ul class="navigation">
+    <li><a href="about-rus.html"><img src="img/about.png" alt="x" onmouseover="this.src='img/about-h.png';" onmouseout="this.src='img/about.png';"></a></li>
+    <li><img src="img/divider.png" alt="x"></li>
+    <li id="web"><a href="work.html"><img src="img/gearsicon-b.png" alt="x" onmouseover="this.src='img/gearsicon-h.png';" onmouseout="this.src='img/gearsicon-b.png';"></a></li>
+    <li id="web"><img src="img/divider.png" alt="x"></li>
+    <li id="web"><a href="contact-rus.html"><img src="img/contacticon.png" alt="x" onmouseover="this.src='img/contacticon-h.png';" onmouseout="this.src='img/contacticon.png';"></a></li>
+    <li id="web"><img src="img/divider.png" alt="x"></li>
+    <li><a href="index-rus.html"><img src="img/home-w.png" alt="x" onmouseover="this.src='img/homeicon-h.png';" onmouseout="this.src='img/home-w.png';"></a></li>
+    <li><img src="img/divider.png" alt="x"></li>
+    <li><a href="navigation-rus.html"><img src="img/navigationicon.png" alt="x" onmouseover="this.src='img/navigationicon-h.png';" onmouseout="this.src='img/navigationicon.png';"></a></li>
+  </ul>
+</div>
+<div class="lang">
+  <div class="lang-img">
+    <a href="work-rus.html"><img src="img/russ.jpg" alt="Russian Language"></a>
+    <a href="work.html"><img src="img/us.jpg" alt="English Language"></a>
+  </div>
+</div>
+</nav>
+    </body>
+</html>
