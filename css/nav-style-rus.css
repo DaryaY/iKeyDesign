@@ -10,6 +10,9 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+.txt, .txt-b {
+  font-family: 'Roboto Condensed', sans-serif;
+}
 
 
 @media (min-width: 720px) {
@@ -97,14 +100,14 @@ top: 20px;
 }
 .mob-color2, .mob-color3 {
   background-color: rgba(198, 122, 25, 0.5);
-  width: 300px;
+  width: 360px;
   height: 100px;
   margin-top: 40px;
   margin-right: 35px;
 }
 .mob-color {
   background-color: rgba(198, 122, 25, 0.5);
-  width: 300px;
+  width: 360px;
   height: 100px;
   margin-top: 40px;
   margin-left: -2%;
@@ -185,14 +188,14 @@ a:hover .txt {
 }
 a:hover .mob-color {
   background-color: rgba(230, 230, 230, 0.7);
-  width: 300px;
+  width: 360px;
   height: 100px;
   margin-top: 40px;
   margin-left: -2%;
 }
 a:hover .mob-color3, a:hover .mob-color2 {
   background-color: rgba(230, 230, 230, 0.7);
-  width: 300px;
+  width: 360px;
   height: 100px;
   margin-top: 40px;
   margin-right: 35px;
@@ -330,7 +333,7 @@ a:hover .mob-color3, a:hover .mob-color2 {
   }
   .mob-color {
     background-color: rgba(198, 122, 25, 0.5);
-    width: 220px;
+    width: 280px;
     height: 80px;
     margin: 0 auto;
     margin-top: 40px;
@@ -407,7 +410,7 @@ a:hover .mob-color3, a:hover .mob-color2 {
   }
   a:hover .mob-color {
     background-color: rgba(230, 230, 230, 0.7);
-    width: 220px;
+    width: 280px;
     height: 80px;
     margin: 0 auto;
     margin-top: 40px;

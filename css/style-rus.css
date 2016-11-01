@@ -28,7 +28,7 @@ html {
 h1, li {
   font-family: 'Roboto', sans-serif;
 }
-h3, p {
+h3, p, .txt, .txt-b {
   font-family: 'Roboto Condensed', sans-serif;
 }
 .left a {
@@ -421,7 +421,6 @@ h5 {
   .wrap2 {
     font-size: 1.4em;
     margin: 0px;
-    margin-left: -20px;
     padding: 0px;
     width: 100%;
     margin-bottom: 60px;
@@ -501,7 +500,7 @@ h5 {
     font-size: 1.4em;
     margin: 0px;
     padding: 0px;
-    padding-right: 30px;
+    padding-right: 40px;
     width: 100%;
     margin-bottom: 60px;
   }
@@ -529,7 +528,7 @@ h5 {
   }
   .mob-color {
     background-color: rgba(198, 122, 25, 0.5);
-    width: 220px;
+    width: 280px;
     height: 80px;
     margin: 0 auto;
     margin-top: 40px;
@@ -641,7 +640,7 @@ h5 {
   }
   a:hover .mob-color {
     background-color: rgba(230, 230, 230, 0.7);
-    width: 220px;
+    width: 280px;
     height: 80px;
     margin: 0 auto;
     margin-top: 40px;
@@ -687,7 +686,7 @@ h5 {
     footer {
       clear: left;
       display: block;
-      margin-bottom: 100px;
+      margin-bottom: 300px;
     }
     .img-mob-bot {
       margin-bottom: 80px;
@@ -725,17 +724,17 @@ h5 {
   }
   .mob-color2, .mob-color3 {
     background-color: rgba(198, 122, 25, 0.5);
-    width: 300px;
+    width: 360px;
     height: 100px;
     margin-top: 40px;
-    margin-right: 35px;
+    margin-right: 90px;
   }
   .mob-color {
     background-color: rgba(198, 122, 25, 0.5);
-    width: 300px;
+    width: 360px;
     height: 100px;
     margin-top: 40px;
-    margin-left: -2%;
+    margin-left: 90px;
   }
   #mob-t {
     position: relative;
@@ -848,17 +847,17 @@ h5 {
   }
   a:hover .mob-color {
     background-color: rgba(230, 230, 230, 0.7);
-    width: 300px;
+    width: 360px;
     height: 100px;
     margin-top: 40px;
-    margin-left: -2%;
+    margin-left: 90px;
   }
   a:hover .mob-color3, a:hover .mob-color2 {
     background-color: rgba(230, 230, 230, 0.7);
-    width: 300px;
+    width: 360px;
     height: 100px;
     margin-top: 40px;
-    margin-right: 35px;
+    margin-right: 90px;
   }
   }
 }
