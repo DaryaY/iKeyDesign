@@ -24,10 +24,15 @@ html {
   color: #252525;
   line-height: 1.3em;
 }
+h2 {
+  color: #252525;
+  line-height: 1.3em;
+  font-size: 1.6em;
+}
 h1, li {
   font-family: 'Roboto', sans-serif;
 }
-h3, p {
+h2, h3, p {
   font-family: 'Roboto Condensed', sans-serif;
 }
 #p {
