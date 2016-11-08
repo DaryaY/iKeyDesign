@@ -4,14 +4,18 @@
 function fScroll(val)
 {
         var hidScroll = document.getElementById('hidScroll');
-        hidScroll.value = val.scrollTop;
+	if(hidScroll){
+        	hidScroll.value = val.scrollTop;
+	}
 }
 
 // function moves scroll position to saved value
 function fScrollMove(what)
 {
         var hidScroll = document.getElementById('hidScroll');
-        document.getElementById(what).scrollTop = hidScroll.value;
+	if(hidScroll){
+		document.getElementById(what).scrollTop = hidScroll.value;
+	}
 }
 
 
@@ -38,6 +42,19 @@ function blanket_size(popUpNumber) {
 			blanket_height = document.body.parentNode.scrollHeight;
 		}
 	}
+	if (typeof window.pageYOffset != 'undefined') {
+		viewportY = window.pageYOffset;
+	} else {
+		viewportY = document.documentElement.scrollTop;
+	}
+	if ((viewportY > document.body.parentNode.scrollTop) && (viewportY > document.body.parentNode.clientTop)) {
+	} else {
+		if (document.body.parentNode.clientHeight > document.body.parentNode.scrollHeight) {
+			viewportY = document.body.parentNode.clientTop;
+		} else {
+			viewportY = document.body.parentNode.scrollTop;
+		}
+	}
 	var blanket = document.getElementById('blanket');
 	blanket.style.height = blanket_height + 'px';
 	var popUpParent = document.getElementById(parentName);
@@ -47,8 +64,11 @@ function blanket_size(popUpNumber) {
         if(blanket_height < 80){
           blanket_height=80;
         }
-        if(document.body.parentNode.scrollTop != 0){
-          blanket_height=blanket_height+document.body.parentNode.scrollTop;
+//        if(document.body.parentNode.scrollTop != 0){
+//          blanket_height=blanket_height+document.body.parentNode.scrollTop;
+//        }
+        if(viewportY != 0){
+          blanket_height=blanket_height+viewportY;
         }
 	popUpDiv.style.top = blanket_height + 'px';
 }
